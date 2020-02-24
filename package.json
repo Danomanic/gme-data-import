@@ -1,0 +1,40 @@
+{
+  "name": "gme-data-import",
+  "version": "1.0.0",
+  "description": "A tool for importing data into the Training Dashboard",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint src/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danomanic/gme-data-import.git"
+  },
+  "keywords": [
+    "scouts",
+    "training",
+    "data"
+  ],
+  "author": "Daniel J. Pomfret",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Danomanic/gme-data-import/issues"
+  },
+  "homepage": "https://github.com/Danomanic/gme-data-import#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "csv-parser": "^2.3.2",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.3",
+    "neat-csv": "^5.2.0"
+  }
+}
